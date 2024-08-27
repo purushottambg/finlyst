@@ -1,7 +1,5 @@
 #!/bin/bash  
 
-    
-#echo "We have not received input file, Kindly provide file address."
 read -p "Enter User name: " user
 read -p "Enter file path: " inputFile
 
