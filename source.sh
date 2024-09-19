@@ -16,7 +16,7 @@ echo "We are processing $inputFile file for $user!"
 
 
 #let's create separate directory for this task and add meaningful lines to it
-dirName="/home/purushottam/Finlyst/Data/$user$(date +%H%M%d%m%Y)"
+dirName="${HOME}/advScripts/Finlyst/Data/$user$(date +%H%M%d%m%Y)"
 mkdir -p "$dirName"
 if [ $? -eq 0 ]; then    #if mkdir is successful then status will be 0
     echo "file has been creted"
