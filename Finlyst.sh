@@ -70,5 +70,5 @@ else
     exit 1  #flow must be aborted if file is not created
 fi
 
-fileCreation "$user" "$inputFile" "$dirName"
+fileCreation "$user" "$inputFile" "$dirName"     #Calling file creation process for further process
 
